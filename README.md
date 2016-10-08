@@ -1,14 +1,12 @@
 ﻿# android-holdcache
-this is android holdcache
+this is android holdcache library
 
-download jar : [android-holdcache-src.jar](https://raw.githubusercontent.com/LiangMaYong/android-holdcache/master/jar/android-holdcache-src.jar)
-## use
+[![LatestVersion](https://img.shields.io/badge/LatestVersion-1.0.0-brightgreen.svg?style=plastic) ](https://github.com/LiangMaYong/android-holdcache/releases/)
+## gradle
 ```
-HoldCache.getInstance(this).put("key","value");
-
-HoldCache.getInstance(this).getAsString("key");
+compile 'com.liangmayong.android:holdcache:$LatestVersion'
 ```
-##License
+## LICENSE
 ```
 Copyright 2016 LiangMaYong
 
